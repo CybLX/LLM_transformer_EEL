@@ -4,7 +4,7 @@
 This project implements a text generation model using a Transformer architecture, specifically focusing on the decoder layers. The model is trained to understand and generate human-like text based on a provided prompt. Unfortunately, after including a Pytorch dataset and dataloader, the model has been suffering from overfitting. If you want to see the original inspiration for the model, follow the [link](https://github.com/wingedsheep/transformer). The overfitting will be fixed soon.
 
 ## Dataset Features
-The first dataset contains comments from students at EEL USP regarding their professors and subjects from 2018 to 2022. However, for legal reasons, this dataset will not be disclosed, but rather the final product.
+The first dataset contains comments from students at EEL USP regarding their professors and subjects from 2018 to 2022. However, for legal reasons, this dataset will not be disclosed.
 - **Comentarios:** Processed words from the original text.
 
 The second datasets contain customer reviews, tweets, and other user-generated content, and they have been preprocessed to include several features:
